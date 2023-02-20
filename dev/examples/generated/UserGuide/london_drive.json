@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.59 e21c39fe",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-03T11:04:25Z",
+    "timestamp_osm_base": "2023-02-20T09:59:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11,10 +11,10 @@
   "type": "count",
   "id": 0,
   "tags": {
-    "nodes": "4897",
-    "ways": "1473",
-    "relations": "134",
-    "total": "6504"
+    "nodes": "4852",
+    "ways": "1470",
+    "relations": "128",
+    "total": "6450"
   }
 },
 {
@@ -2925,14 +2925,14 @@
 {
   "type": "node",
   "id": 27459945,
-  "lat": 51.5142099,
-  "lon": -0.0825327
+  "lat": 51.5142195,
+  "lon": -0.0825461
 },
 {
   "type": "node",
   "id": 27459951,
-  "lat": 51.5142606,
-  "lon": -0.0824394
+  "lat": 51.5142673,
+  "lon": -0.0824407
 },
 {
   "type": "node",
@@ -8138,14 +8138,14 @@
 {
   "type": "node",
   "id": 1043001422,
-  "lat": 51.5140100,
-  "lon": -0.0827268
+  "lat": 51.5140075,
+  "lon": -0.0827416
 },
 {
   "type": "node",
   "id": 1043001423,
-  "lat": 51.5141539,
-  "lon": -0.0826068
+  "lat": 51.5141514,
+  "lon": -0.0826242
 },
 {
   "type": "node",
@@ -9147,8 +9147,8 @@
 {
   "type": "node",
   "id": 1312188886,
-  "lat": 51.5133119,
-  "lon": -0.0878194
+  "lat": 51.5133234,
+  "lon": -0.0878180
 },
 {
   "type": "node",
@@ -9219,8 +9219,8 @@
 {
   "type": "node",
   "id": 1312264600,
-  "lat": 51.5132240,
-  "lon": -0.0901446
+  "lat": 51.5132124,
+  "lon": -0.0901370
 },
 {
   "type": "node",
@@ -9713,15 +9713,15 @@
 {
   "type": "node",
   "id": 1365887500,
-  "lat": 51.5134498,
-  "lon": -0.0899223,
+  "lat": 51.5134381,
+  "lon": -0.0899300,
   "tags": {
     "crossing": "traffic_signals",
-    "crossing:island": "separate",
+    "crossing:island": "no",
     "crossing:markings": "dots",
     "crossing_ref": "pelican",
     "highway": "crossing",
-    "tactile_paving": "yes"
+    "was:crossing:island": "yes"
   }
 },
 {
@@ -12162,8 +12162,8 @@
 {
   "type": "node",
   "id": 1733389278,
-  "lat": 51.5132848,
-  "lon": -0.0897767
+  "lat": 51.5132759,
+  "lon": -0.0898023
 },
 {
   "type": "node",
@@ -12918,7 +12918,7 @@
 {
   "type": "node",
   "id": 1939558650,
-  "lat": 51.5131572,
+  "lat": 51.5131635,
   "lon": -0.0887394,
   "tags": {
     "highway": "traffic_signals",
@@ -12928,8 +12928,8 @@
 {
   "type": "node",
   "id": 1939558651,
-  "lat": 51.5132265,
-  "lon": -0.0888203,
+  "lat": 51.5132302,
+  "lon": -0.0888073,
   "tags": {
     "crossing": "traffic_signals",
     "crossing:island": "yes",
@@ -12953,42 +12953,8 @@
 {
   "type": "node",
   "id": 1939558657,
-  "lat": 51.5132625,
-  "lon": -0.0888621
-},
-{
-  "type": "node",
-  "id": 1939558659,
-  "lat": 51.5132726,
-  "lon": -0.0900629,
-  "tags": {
-    "highway": "traffic_signals",
-    "traffic_signals:direction": "forward"
-  }
-},
-{
-  "type": "node",
-  "id": 1939558660,
-  "lat": 51.5132948,
-  "lon": -0.0891535
-},
-{
-  "type": "node",
-  "id": 1939558661,
-  "lat": 51.5133034,
-  "lon": -0.0890263
-},
-{
-  "type": "node",
-  "id": 1939558663,
-  "lat": 51.5133068,
-  "lon": -0.0899415,
-  "tags": {
-    "crossing": "traffic_signals",
-    "crossing_ref": "pelican",
-    "highway": "crossing",
-    "tactile_paving": "yes"
-  }
+  "lat": 51.5133025,
+  "lon": -0.0888706
 },
 {
   "type": "node",
@@ -12999,14 +12965,14 @@
 {
   "type": "node",
   "id": 1939558666,
-  "lat": 51.5133662,
-  "lon": -0.0895361
+  "lat": 51.5133712,
+  "lon": -0.0895220
 },
 {
   "type": "node",
   "id": 1939558667,
-  "lat": 51.5133186,
-  "lon": -0.0889094,
+  "lat": 51.5134058,
+  "lon": -0.0889457,
   "tags": {
     "lcn": "yes",
     "lcn_name": "Bank",
@@ -13016,23 +12982,11 @@
 {
   "type": "node",
   "id": 1939558671,
-  "lat": 51.5133428,
-  "lon": -0.0884301,
+  "lat": 51.5133682,
+  "lon": -0.0883701,
   "tags": {
     "highway": "traffic_signals",
     "traffic_signals:direction": "forward"
-  }
-},
-{
-  "type": "node",
-  "id": 1939558672,
-  "lat": 51.5133473,
-  "lon": -0.0885454,
-  "tags": {
-    "crossing": "traffic_signals",
-    "crossing_ref": "pelican",
-    "highway": "crossing",
-    "kerb": "lowered"
   }
 },
 {
@@ -13043,57 +12997,16 @@
 },
 {
   "type": "node",
-  "id": 1939558674,
-  "lat": 51.5133907,
-  "lon": -0.0887286
-},
-{
-  "type": "node",
-  "id": 1939558677,
-  "lat": 51.5133800,
-  "lon": -0.0884072
-},
-{
-  "type": "node",
-  "id": 1939558678,
-  "lat": 51.5133728,
-  "lon": -0.0891491
-},
-{
-  "type": "node",
   "id": 1939558681,
-  "lat": 51.5133980,
-  "lon": -0.0885428,
+  "lat": 51.5133787,
+  "lon": -0.0885386,
   "tags": {
     "crossing": "traffic_signals",
+    "crossing:island": "no",
     "crossing_ref": "pelican",
     "highway": "crossing",
     "kerb": "lowered"
   }
-},
-{
-  "type": "node",
-  "id": 1939558684,
-  "lat": 51.5134100,
-  "lon": -0.0889609
-},
-{
-  "type": "node",
-  "id": 1939558687,
-  "lat": 51.5134224,
-  "lon": -0.0886834
-},
-{
-  "type": "node",
-  "id": 1939558689,
-  "lat": 51.5134726,
-  "lon": -0.0888234
-},
-{
-  "type": "node",
-  "id": 1939558692,
-  "lat": 51.5135194,
-  "lon": -0.0886996
 },
 {
   "type": "node",
@@ -13109,10 +13022,11 @@
 {
   "type": "node",
   "id": 1939558700,
-  "lat": 51.5135214,
-  "lon": -0.0886293,
+  "lat": 51.5135244,
+  "lon": -0.0886344,
   "tags": {
     "crossing": "traffic_signals",
+    "crossing:island": "no",
     "crossing_ref": "pelican",
     "highway": "crossing",
     "kerb": "lowered"
@@ -14478,8 +14392,8 @@
 {
   "type": "node",
   "id": 2218340965,
-  "lat": 51.5133982,
-  "lon": -0.0897590
+  "lat": 51.5134009,
+  "lon": -0.0897462
 },
 {
   "type": "node",
@@ -14490,8 +14404,8 @@
 {
   "type": "node",
   "id": 2218344501,
-  "lat": 51.5133448,
-  "lon": -0.0884864,
+  "lat": 51.5133750,
+  "lon": -0.0884797,
   "tags": {
     "cycleway": "asl",
     "direction": "forward"
@@ -14499,15 +14413,9 @@
 },
 {
   "type": "node",
-  "id": 2218344503,
-  "lat": 51.5133201,
-  "lon": -0.0877544
-},
-{
-  "type": "node",
   "id": 2218344505,
-  "lat": 51.5133305,
-  "lon": -0.0881933
+  "lat": 51.5133526,
+  "lon": -0.0881380
 },
 {
   "type": "node",
@@ -14541,21 +14449,9 @@
 },
 {
   "type": "node",
-  "id": 2218344516,
-  "lat": 51.5133750,
-  "lon": -0.0883284
-},
-{
-  "type": "node",
   "id": 2218344518,
   "lat": 51.5133666,
   "lon": -0.0880111
-},
-{
-  "type": "node",
-  "id": 2218344522,
-  "lat": 51.5133880,
-  "lon": -0.0884776
 },
 {
   "type": "node",
@@ -14566,20 +14462,14 @@
 {
   "type": "node",
   "id": 2218362306,
-  "lat": 51.5132114,
-  "lon": -0.0900552
-},
-{
-  "type": "node",
-  "id": 2218362308,
-  "lat": 51.5134954,
-  "lon": -0.0887625
+  "lat": 51.5132177,
+  "lon": -0.0900467
 },
 {
   "type": "node",
   "id": 2218362310,
-  "lat": 51.5131899,
-  "lon": -0.0887801,
+  "lat": 51.5131983,
+  "lon": -0.0887750,
   "tags": {
     "cycleway": "asl",
     "direction": "backward"
@@ -14616,35 +14506,6 @@
     "highway": "traffic_signals",
     "traffic_signals:direction": "forward"
   }
-},
-{
-  "type": "node",
-  "id": 2218362336,
-  "lat": 51.5132906,
-  "lon": -0.0899977,
-  "tags": {
-    "cycleway": "asl",
-    "direction": "forward"
-  }
-},
-{
-  "type": "node",
-  "id": 2218362849,
-  "lat": 51.5134087,
-  "lon": -0.0899461,
-  "tags": {
-    "crossing": "traffic_signals",
-    "crossing:island": "separate",
-    "crossing:markings": "dots",
-    "crossing_ref": "pelican",
-    "highway": "crossing"
-  }
-},
-{
-  "type": "node",
-  "id": 2218364541,
-  "lat": 51.5133266,
-  "lon": -0.0896558
 },
 {
   "type": "node",
@@ -15235,21 +15096,21 @@
 {
   "type": "node",
   "id": 2387224474,
-  "lat": 51.5134609,
-  "lon": -0.0899791,
+  "lat": 51.5134467,
+  "lon": -0.0899805,
   "tags": {
     "cycleway": "asl",
-    "direction": "forward"
+    "direction": "backward"
   }
 },
 {
   "type": "node",
   "id": 2387224475,
-  "lat": 51.5134708,
-  "lon": -0.0900408,
+  "lat": 51.5134584,
+  "lon": -0.0900508,
   "tags": {
-    "highway": "traffic_signals",
-    "traffic_signals:direction": "forward"
+    "disused:highway": "traffic_signals",
+    "traffic_signals:direction": "backward"
   }
 },
 {
@@ -15984,6 +15845,7 @@
     "crossing_ref": "pelican",
     "highway": "crossing",
     "tactile_paving": "yes",
+    "traffic_signals:sound": "no",
     "traffic_signals:vibration": "yes"
   }
 },
@@ -17111,12 +16973,6 @@
 },
 {
   "type": "node",
-  "id": 3139705121,
-  "lat": 51.5133950,
-  "lon": -0.0885233
-},
-{
-  "type": "node",
   "id": 3143635729,
   "lat": 51.5184439,
   "lon": -0.0771285
@@ -17338,7 +17194,11 @@
   "type": "node",
   "id": 3231708930,
   "lat": 51.5152629,
-  "lon": -0.0717956
+  "lon": -0.0717956,
+  "tags": {
+    "junction": "yes",
+    "name": "Gardiner's Corner"
+  }
 },
 {
   "type": "node",
@@ -20778,9 +20638,12 @@
   "lat": 51.5135805,
   "lon": -0.0814332,
   "tags": {
+    "button_operated": "yes",
     "crossing": "traffic_signals",
     "highway": "crossing",
-    "traffic_signals:sound": "yes"
+    "tactile_paving": "yes",
+    "traffic_signals:sound": "yes",
+    "traffic_signals:vibration": "yes"
   }
 },
 {
@@ -21500,38 +21363,14 @@
 },
 {
   "type": "node",
-  "id": 4866784251,
-  "lat": 51.5132950,
-  "lon": -0.0891204
-},
-{
-  "type": "node",
-  "id": 4866807989,
-  "lat": 51.5133484,
-  "lon": -0.0886624
-},
-{
-  "type": "node",
-  "id": 4866976610,
-  "lat": 51.5133529,
-  "lon": -0.0895842
-},
-{
-  "type": "node",
-  "id": 4866976611,
-  "lat": 51.5133954,
-  "lon": -0.0898706
-},
-{
-  "type": "node",
   "id": 4866976613,
-  "lat": 51.5134356,
-  "lon": -0.0898442
+  "lat": 51.5134223,
+  "lon": -0.0898470
 },
 {
   "type": "node",
   "id": 4866976614,
-  "lat": 51.5134602,
+  "lat": 51.5134655,
   "lon": -0.0900964
 },
 {
@@ -21621,8 +21460,8 @@
 {
   "type": "node",
   "id": 4883707389,
-  "lat": 51.5068336,
-  "lon": -0.0634350
+  "lat": 51.5068457,
+  "lon": -0.0634282
 },
 {
   "type": "node",
@@ -22447,8 +22286,8 @@
 {
   "type": "node",
   "id": 5201625541,
-  "lat": 51.5108040,
-  "lon": -0.0924539
+  "lat": 51.5107969,
+  "lon": -0.0924134
 },
 {
   "type": "node",
@@ -24993,8 +24832,8 @@
 {
   "type": "node",
   "id": 6218501753,
-  "lat": 51.5142398,
-  "lon": -0.0824926
+  "lat": 51.5142452,
+  "lon": -0.0824973
 },
 {
   "type": "node",
@@ -26658,12 +26497,6 @@
 },
 {
   "type": "node",
-  "id": 7223326407,
-  "lat": 51.5134342,
-  "lon": -0.0887726
-},
-{
-  "type": "node",
   "id": 7223326408,
   "lat": 51.5135455,
   "lon": -0.0885682,
@@ -26674,24 +26507,6 @@
 },
 {
   "type": "node",
-  "id": 7223326409,
-  "lat": 51.5133706,
-  "lon": -0.0889383
-},
-{
-  "type": "node",
-  "id": 7223326410,
-  "lat": 51.5134353,
-  "lon": -0.0888161
-},
-{
-  "type": "node",
-  "id": 7223326411,
-  "lat": 51.5132913,
-  "lon": -0.0888884
-},
-{
-  "type": "node",
   "id": 7223326412,
   "lat": 51.5139427,
   "lon": -0.0893108
@@ -26699,42 +26514,30 @@
 {
   "type": "node",
   "id": 7223326413,
-  "lat": 51.5134867,
-  "lon": -0.0886229
-},
-{
-  "type": "node",
-  "id": 7223326414,
-  "lat": 51.5133712,
-  "lon": -0.0887635
+  "lat": 51.5134975,
+  "lon": -0.0887056
 },
 {
   "type": "node",
   "id": 7223365368,
-  "lat": 51.5133409,
-  "lon": -0.0892087
-},
-{
-  "type": "node",
-  "id": 7223365370,
-  "lat": 51.5133851,
-  "lon": -0.0890714
+  "lat": 51.5133620,
+  "lon": -0.0891839
 },
 {
   "type": "node",
   "id": 7223365371,
-  "lat": 51.5133532,
-  "lon": -0.0893425,
+  "lat": 51.5133553,
+  "lon": -0.0893340,
   "tags": {
-    "highway": "traffic_signals",
+    "disused:highway": "traffic_signals",
     "traffic_signals:direction": "backward"
   }
 },
 {
   "type": "node",
   "id": 7223365372,
-  "lat": 51.5133515,
-  "lon": -0.0892994,
+  "lat": 51.5133536,
+  "lon": -0.0892977,
   "tags": {
     "crossing": "traffic_signals",
     "crossing:island": "yes",
@@ -26860,6 +26663,19 @@
 },
 {
   "type": "node",
+  "id": 7246513948,
+  "lat": 51.5098560,
+  "lon": -0.0747128,
+  "tags": {
+    "button_operated": "yes",
+    "crossing": "traffic_signals",
+    "crossing_ref": "pelican",
+    "highway": "crossing",
+    "traffic_signals:vibration": "yes"
+  }
+},
+{
+  "type": "node",
   "id": 7246513949,
   "lat": 51.5099342,
   "lon": -0.0746686
@@ -26881,6 +26697,12 @@
   "id": 7246513962,
   "lat": 51.5097977,
   "lon": -0.0749939
+},
+{
+  "type": "node",
+  "id": 7246513965,
+  "lat": 51.5098776,
+  "lon": -0.0746643
 },
 {
   "type": "node",
@@ -27491,8 +27313,8 @@
 {
   "type": "node",
   "id": 7701929129,
-  "lat": 51.5068820,
-  "lon": -0.0632575
+  "lat": 51.5068834,
+  "lon": -0.0632108
 },
 {
   "type": "node",
@@ -28103,12 +27925,6 @@
   "id": 7836235489,
   "lat": 51.5008265,
   "lon": -0.0756120
-},
-{
-  "type": "node",
-  "id": 7840711614,
-  "lat": 51.5137304,
-  "lon": -0.0911101
 },
 {
   "type": "node",
@@ -29535,8 +29351,8 @@
 {
   "type": "node",
   "id": 8515091589,
-  "lat": 51.5140478,
-  "lon": -0.0826953
+  "lat": 51.5140470,
+  "lon": -0.0827101
 },
 {
   "type": "node",
@@ -29996,6 +29812,7 @@
     "access": "no",
     "barrier": "bollard",
     "bicycle": "yes",
+    "bollard": "removable",
     "foot": "yes",
     "material": "metal"
   }
@@ -30435,12 +30252,6 @@
   "id": 8869435257,
   "lat": 51.5135538,
   "lon": -0.0906777
-},
-{
-  "type": "node",
-  "id": 8869435258,
-  "lat": 51.5134327,
-  "lon": -0.0900627
 },
 {
   "type": "node",
@@ -31209,12 +31020,6 @@
 },
 {
   "type": "node",
-  "id": 9021504716,
-  "lat": 51.5132612,
-  "lon": -0.0901035
-},
-{
-  "type": "node",
   "id": 9021522268,
   "lat": 51.5192535,
   "lon": -0.0742337
@@ -31244,12 +31049,6 @@
   "id": 9021522271,
   "lat": 51.5197704,
   "lon": -0.0719788
-},
-{
-  "type": "node",
-  "id": 9021535020,
-  "lat": 51.5133377,
-  "lon": -0.0898468
 },
 {
   "type": "node",
@@ -32887,9 +32686,33 @@
 },
 {
   "type": "node",
+  "id": 9678522995,
+  "lat": 51.5100874,
+  "lon": -0.0731762
+},
+{
+  "type": "node",
+  "id": 9678522999,
+  "lat": 51.5100887,
+  "lon": -0.0732253
+},
+{
+  "type": "node",
   "id": 9678523000,
   "lat": 51.5101129,
   "lon": -0.0730683
+},
+{
+  "type": "node",
+  "id": 9678523001,
+  "lat": 51.5100930,
+  "lon": -0.0731581
+},
+{
+  "type": "node",
+  "id": 9678523002,
+  "lat": 51.5100989,
+  "lon": -0.0731336
 },
 {
   "type": "node",
@@ -33824,132 +33647,6 @@
 },
 {
   "type": "node",
-  "id": 9753772611,
-  "lat": 51.5024154,
-  "lon": -0.0773921
-},
-{
-  "type": "node",
-  "id": 9753772612,
-  "lat": 51.5024075,
-  "lon": -0.0774303
-},
-{
-  "type": "node",
-  "id": 9753772613,
-  "lat": 51.5024129,
-  "lon": -0.0773985
-},
-{
-  "type": "node",
-  "id": 9753772614,
-  "lat": 51.5024100,
-  "lon": -0.0774122
-},
-{
-  "type": "node",
-  "id": 9753774640,
-  "lat": 51.5018945,
-  "lon": -0.0777457
-},
-{
-  "type": "node",
-  "id": 9753774641,
-  "lat": 51.5018886,
-  "lon": -0.0777686
-},
-{
-  "type": "node",
-  "id": 9753774642,
-  "lat": 51.5019634,
-  "lon": -0.0777080
-},
-{
-  "type": "node",
-  "id": 9753774643,
-  "lat": 51.5019734,
-  "lon": -0.0777195
-},
-{
-  "type": "node",
-  "id": 9753785313,
-  "lat": 51.5020306,
-  "lon": -0.0776674
-},
-{
-  "type": "node",
-  "id": 9753785314,
-  "lat": 51.5020210,
-  "lon": -0.0776989
-},
-{
-  "type": "node",
-  "id": 9753785315,
-  "lat": 51.5020252,
-  "lon": -0.0776825
-},
-{
-  "type": "node",
-  "id": 9753785316,
-  "lat": 51.5022718,
-  "lon": -0.0774934
-},
-{
-  "type": "node",
-  "id": 9753789055,
-  "lat": 51.5019089,
-  "lon": -0.0778173
-},
-{
-  "type": "node",
-  "id": 9753789056,
-  "lat": 51.5018972,
-  "lon": -0.0778092
-},
-{
-  "type": "node",
-  "id": 9753789057,
-  "lat": 51.5019776,
-  "lon": -0.0777760
-},
-{
-  "type": "node",
-  "id": 9753789058,
-  "lat": 51.5019824,
-  "lon": -0.0777566
-},
-{
-  "type": "node",
-  "id": 9753836017,
-  "lat": 51.5022829,
-  "lon": -0.0774904
-},
-{
-  "type": "node",
-  "id": 9753836018,
-  "lat": 51.5023469,
-  "lon": -0.0774920
-},
-{
-  "type": "node",
-  "id": 9753836019,
-  "lat": 51.5023516,
-  "lon": -0.0774925
-},
-{
-  "type": "node",
-  "id": 9753836020,
-  "lat": 51.5023414,
-  "lon": -0.0774920
-},
-{
-  "type": "node",
-  "id": 9753836021,
-  "lat": 51.5023128,
-  "lon": -0.0774902
-},
-{
-  "type": "node",
   "id": 9753841311,
   "lat": 51.5154531,
   "lon": -0.0720284
@@ -34127,54 +33824,6 @@
   "id": 9753896496,
   "lat": 51.5151695,
   "lon": -0.0721888
-},
-{
-  "type": "node",
-  "id": 9753898862,
-  "lat": 51.5023050,
-  "lon": -0.0775822
-},
-{
-  "type": "node",
-  "id": 9753898863,
-  "lat": 51.5023479,
-  "lon": -0.0775236
-},
-{
-  "type": "node",
-  "id": 9753898864,
-  "lat": 51.5023161,
-  "lon": -0.0775718
-},
-{
-  "type": "node",
-  "id": 9753898865,
-  "lat": 51.5023548,
-  "lon": -0.0775113
-},
-{
-  "type": "node",
-  "id": 9753898866,
-  "lat": 51.5023362,
-  "lon": -0.0775425
-},
-{
-  "type": "node",
-  "id": 9753898867,
-  "lat": 51.5020467,
-  "lon": -0.0777462
-},
-{
-  "type": "node",
-  "id": 9753898868,
-  "lat": 51.5020341,
-  "lon": -0.0777405
-},
-{
-  "type": "node",
-  "id": 9753898869,
-  "lat": 51.5020264,
-  "lon": -0.0777321
 },
 {
   "type": "node",
@@ -35853,15 +35502,87 @@
 },
 {
   "type": "node",
-  "id": 10603058333,
-  "lat": 51.5133593,
-  "lon": -0.0898092
+  "id": 10603058337,
+  "lat": 51.5131552,
+  "lon": -0.0903734
 },
 {
   "type": "node",
-  "id": 10603058337,
-  "lat": 51.5131615,
-  "lon": -0.0903875
+  "id": 10610799854,
+  "lat": 51.5066837,
+  "lon": -0.0662897
+},
+{
+  "type": "node",
+  "id": 10617908244,
+  "lat": 51.4998595,
+  "lon": -0.0777869
+},
+{
+  "type": "node",
+  "id": 10660049636,
+  "lat": 51.5131269,
+  "lon": -0.0904897
+},
+{
+  "type": "node",
+  "id": 10660049644,
+  "lat": 51.5135008,
+  "lon": -0.0903199
+},
+{
+  "type": "node",
+  "id": 10660049645,
+  "lat": 51.5133695,
+  "lon": -0.0891267
+},
+{
+  "type": "node",
+  "id": 10660049646,
+  "lat": 51.5133827,
+  "lon": -0.0890599
+},
+{
+  "type": "node",
+  "id": 10660049648,
+  "lat": 51.5133623,
+  "lon": -0.0882632
+},
+{
+  "type": "node",
+  "id": 10660049649,
+  "lat": 51.5133212,
+  "lon": -0.0880558
+},
+{
+  "type": "node",
+  "id": 10660049650,
+  "lat": 51.5133644,
+  "lon": -0.0880625
+},
+{
+  "type": "node",
+  "id": 10660049651,
+  "lat": 51.5134654,
+  "lon": -0.0887976
+},
+{
+  "type": "node",
+  "id": 10660373786,
+  "lat": 51.5139185,
+  "lon": -0.0910162
+},
+{
+  "type": "node",
+  "id": 10660402950,
+  "lat": 51.5134201,
+  "lon": -0.0888919
+},
+{
+  "type": "node",
+  "id": 10660433979,
+  "lat": 51.5134577,
+  "lon": -0.0889729
 },
 {
   "type": "way",
@@ -36304,7 +36025,8 @@
     "name": "Leadenhall Street",
     "old_ref": "A11",
     "postal_code": "EC3",
-    "sidewalk": "both",
+    "sidewalk:left": "yes",
+    "sidewalk:right": "separate",
     "surface": "asphalt",
     "wikipedia": "en:Leadenhall Street"
   }
@@ -36427,7 +36149,7 @@
     "bus": "yes",
     "cycleway": "opposite",
     "foot": "yes",
-    "highway": "service",
+    "highway": "primary_link",
     "lanes": "1",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -36659,13 +36381,12 @@
     4726152840,
     21523715,
     4195103055,
-    6218501757,
-    3247933381,
-    4430996033,
-    27459971
+    6218501757
   ],
   "tags": {
+    "cycleway:left": "no",
     "cycleway:right": "lane",
+    "cycleway:right:lane": "advisory",
     "cycleway:right:oneway": "-1",
     "highway": "residential",
     "lit": "yes",
@@ -36674,7 +36395,7 @@
     "name": "Saint Mary Axe",
     "oneway": "yes",
     "oneway:bicycle": "no",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt",
     "wikidata": "Q7590464",
     "wikipedia": "en:St Mary Axe"
@@ -38805,11 +38526,14 @@
   "tags": {
     "cycleway": "opposite",
     "highway": "residential",
+    "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Creechurch Lane",
     "oneway": "yes",
     "oneway:bicycle": "no",
     "ref:GB:usrn": "8100154",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "asphalt",
     "surface": "asphalt"
   }
 },
@@ -39016,11 +38740,7 @@
     25477300,
     7815143503,
     25477258,
-    347541973,
-    33612688,
-    347541958,
-    3208075946,
-    25477306
+    347541973
   ],
   "tags": {
     "cycleway": "opposite",
@@ -39031,6 +38751,7 @@
     "oneway": "yes",
     "oneway:bicycle": "no",
     "sidewalk": "both",
+    "sidewalk:both:surface": "asphalt",
     "surface": "asphalt"
   }
 },
@@ -39577,6 +39298,7 @@
   "tags": {
     "cycleway:left": "no",
     "highway": "unclassified",
+    "lane_markings": "no",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Widegate Street",
@@ -40005,9 +39727,7 @@
   "type": "way",
   "id": 5729717,
   "nodes": [
-    108802,
-    9068725883,
-    283840739,
+    10610799854,
     28800592,
     28800593,
     4269831197,
@@ -40030,6 +39750,8 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Kennet Street",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "paving_stones"
   }
 },
@@ -44128,10 +43850,6 @@
     8995383980,
     6448638573,
     7806987345,
-    9753772611,
-    9753772613,
-    9753772614,
-    9753772612,
     6551935890
   ],
   "tags": {
@@ -44213,9 +43931,12 @@
   ],
   "tags": {
     "highway": "residential",
+    "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Creechurch Lane",
     "ref:GB:usrn": "8100154",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "asphalt",
     "surface": "asphalt"
   }
 },
@@ -44786,6 +44507,7 @@
     "name": "Aldgate High Street",
     "operator": "City of London Corporation",
     "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -45983,6 +45705,8 @@
     10597830222
   ],
   "tags": {
+    "cycleway:left": "shared_lane",
+    "cycleway:left:lane": "pictogram",
     "cycleway:right": "separate",
     "highway": "unclassified",
     "lane_markings": "no",
@@ -46881,7 +46605,9 @@
     "name": "Whitechapel High Street",
     "operator": "Transport for London",
     "ref": "A11",
-    "sidewalk": "both",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "yes",
+    "sidewalk:right:surface": "paving_stones",
     "surface": "asphalt",
     "wikidata": "Q7995778",
     "wikipedia": "en:Whitechapel High Street"
@@ -47458,10 +47184,10 @@
   "type": "way",
   "id": 183555208,
   "nodes": [
-    2218344503,
     1312188886,
     2218344498,
     1939558664,
+    10660049649,
     2218344505
   ],
   "tags": {
@@ -47475,53 +47201,6 @@
     "oneway": "yes",
     "sidewalk": "left",
     "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 183555209,
-  "nodes": [
-    1939558687,
-    1939558681,
-    3139705121,
-    2218344522,
-    1939558677,
-    2218344516,
-    2218344518,
-    1939558673,
-    2218344509,
-    2218344503
-  ],
-  "tags": {
-    "abutters": "commercial",
-    "highway": "tertiary",
-    "lane_markings": "no",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "name": "Cornhill",
-    "oneway": "yes",
-    "sidewalk": "left",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 183555210,
-  "nodes": [
-    1939558667,
-    7223326409,
-    1939558684
-  ],
-  "tags": {
-    "abutters": "commercial",
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "not:name": "Prince's Street",
-    "sidewalk": "separate",
-    "source": "local knowledge",
-    "source:name": "local knowledge, street sign, web"
   }
 },
 {
@@ -47571,33 +47250,11 @@
 },
 {
   "type": "way",
-  "id": 183555214,
-  "nodes": [
-    7223365368,
-    1939558678,
-    7223365370,
-    1939558684
-  ],
-  "tags": {
-    "abutters": "commercial",
-    "highway": "tertiary",
-    "lane_markings": "no",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Mansion House Street",
-    "oneway": "yes",
-    "proposed:access": "no",
-    "sidewalk": "separate",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
   "id": 183555218,
   "nodes": [
     1939558697,
-    1939558684
+    10660433979,
+    1939558667
   ],
   "tags": {
     "abutters": "commercial",
@@ -47624,110 +47281,17 @@
     10603058337
   ],
   "tags": {
-    "busway:right": "lane",
     "cycleway:left": "lane",
-    "cycleway:right": "share_busway",
-    "highway": "tertiary",
-    "lanes": "3",
-    "lanes:backward": "2",
-    "lanes:forward": "1",
+    "highway": "unclassified",
+    "lanes": "1",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Queen Victoria Street",
+    "oneway": "yes",
     "proposed:cycleway": "opposite",
-    "proposed:oneway": "yes",
     "proposed:oneway:bicycle": "no",
     "ref:GB:usrn": "8100442",
     "sidewalk": "both",
-    "surface": "asphalt",
-    "wikipedia": "en:Queen Victoria Street, London"
-  }
-},
-{
-  "type": "way",
-  "id": 183555229,
-  "nodes": [
-    1939558684,
-    1939558689,
-    2218362308,
-    1939558692,
-    1939558700
-  ],
-  "tags": {
-    "abutters": "commercial",
-    "cycle_network": "GB:London Streetspace",
-    "highway": "unclassified",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Threadneedle Street",
-    "note:covid19": "Temporarily closed to eastbound motorists",
-    "oneway": "yes",
-    "sidewalk": "left",
-    "surface": "asphalt",
-    "was:highway": "tertiary"
-  }
-},
-{
-  "type": "way",
-  "id": 183555233,
-  "nodes": [
-    1939558687,
-    1939558674,
-    7223326414,
-    1939558667
-  ],
-  "tags": {
-    "highway": "unclassified",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "oneway": "yes",
-    "sidewalk": "separate"
-  }
-},
-{
-  "type": "way",
-  "id": 183555237,
-  "nodes": [
-    1939558667,
-    1939558661
-  ],
-  "tags": {
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Mansion House Street",
-    "oneway": "yes",
-    "sidewalk": "separate",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 183555239,
-  "nodes": [
-    1312264600,
-    9021504716,
-    1939558659,
-    2218362336
-  ],
-  "tags": {
-    "bus": "yes",
-    "busway:left": "lane",
-    "cycleway:left": "share_busway",
-    "highway": "tertiary",
-    "lanes": "2",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Queen Victoria Street",
-    "oneway": "yes",
-    "proposed:access": "no",
-    "proposed:highway": "cycleway",
-    "ref:GB:usrn": "8100442",
-    "sidewalk": "left",
     "surface": "asphalt",
     "wikipedia": "en:Queen Victoria Street, London"
   }
@@ -48540,30 +48104,6 @@
 },
 {
   "type": "way",
-  "id": 209418497,
-  "nodes": [
-    1939558666,
-    4866976610,
-    2218364541,
-    1733389278
-  ],
-  "tags": {
-    "bus": "yes",
-    "highway": "tertiary",
-    "lane_markings": "no",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Queen Victoria Street",
-    "oneway": "yes",
-    "ref:GB:usrn": "8100442",
-    "sidewalk": "left",
-    "surface": "asphalt",
-    "wikipedia": "en:Queen Victoria Street, London"
-  }
-},
-{
-  "type": "way",
   "id": 211780353,
   "nodes": [
     31349035,
@@ -48591,84 +48131,20 @@
   "type": "way",
   "id": 211899528,
   "nodes": [
-    1939558666,
-    2218364543,
-    2218340965
+    1939558667,
+    10660049646
   ],
   "tags": {
     "bus": "yes",
     "highway": "tertiary",
-    "lanes": "3",
-    "lanes:backward": "2",
-    "lanes:forward": "1",
+    "lanes": "2",
     "lit": "yes",
     "maxspeed": "20 mph",
     "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
     "name": "Mansion House Street",
-    "sidewalk": "right",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 211899530,
-  "nodes": [
-    4866976614,
-    2387224475
-  ],
-  "tags": {
-    "cycleway:left": "lane",
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Poultry",
     "oneway": "yes",
-    "sidewalk": "left",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 211899831,
-  "nodes": [
-    2218344505,
-    1939558671,
-    2218344501
-  ],
-  "tags": {
-    "abutters": "commercial",
-    "cycleway:left": "lane",
-    "highway": "tertiary",
-    "lane_markings": "no",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Cornhill",
-    "oneway": "yes",
-    "sidewalk": "left",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 211899832,
-  "nodes": [
-    2218344501,
-    1939558672,
-    4866807989,
-    1939558667
-  ],
-  "tags": {
-    "abutters": "commercial",
-    "highway": "tertiary",
-    "lanes": "1",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Cornhill",
-    "oneway": "yes",
-    "sidewalk": "left",
+    "proposed:oneway": "no",
+    "sidewalk": "both",
     "surface": "asphalt"
   }
 },
@@ -48676,9 +48152,9 @@
   "type": "way",
   "id": 211900221,
   "nodes": [
-    1939558700,
     7223326413,
-    1939558687
+    10660049651,
+    10660402950
   ],
   "tags": {
     "abutters": "commercial",
@@ -48713,35 +48189,12 @@
     "maxspeed": "20 mph",
     "name": "Threadneedle Street",
     "note:covid19": "Temporarily closed to eastbound motorists",
-    "oneway": "no",
+    "oneway": "yes",
     "oneway:bicycle": "no",
     "proposed:highway": "cycleway",
     "sidewalk": "both",
     "source:name": "local knowledge",
     "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 211901834,
-  "nodes": [
-    2218340965,
-    4866976611,
-    2218362849,
-    8869435258,
-    4866976614
-  ],
-  "tags": {
-    "bus": "yes",
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Poultry",
-    "oneway": "yes",
-    "sidewalk": "left",
-    "surface": "asphalt",
-    "wikidata": "Q7235592"
   }
 },
 {
@@ -48871,7 +48324,7 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt"
   }
 },
@@ -49350,26 +48803,6 @@
 },
 {
   "type": "way",
-  "id": 230191774,
-  "nodes": [
-    2387224475,
-    2387224474,
-    1365887500
-  ],
-  "tags": {
-    "bus": "yes",
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Poultry",
-    "oneway": "yes",
-    "sidewalk": "left",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
   "id": 230191864,
   "nodes": [
     2387226309,
@@ -49382,38 +48815,12 @@
     "busway:right": "lane",
     "cycleway:left": "lane",
     "cycleway:right": "share_busway",
-    "highway": "tertiary",
+    "highway": "unclassified",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Queen Victoria Street",
     "ref:GB:usrn": "8100442",
     "sidewalk": "both",
-    "surface": "asphalt",
-    "wikipedia": "en:Queen Victoria Street, London"
-  }
-},
-{
-  "type": "way",
-  "id": 230191865,
-  "nodes": [
-    2218362336,
-    1939558663,
-    9021535020,
-    10603058333
-  ],
-  "tags": {
-    "bus": "yes",
-    "highway": "tertiary",
-    "lane_markings": "no",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Queen Victoria Street",
-    "oneway": "yes",
-    "proposed:access": "no",
-    "proposed:highway": "cycleway",
-    "ref:GB:usrn": "8100442",
-    "sidewalk": "left",
     "surface": "asphalt",
     "wikipedia": "en:Queen Victoria Street, London"
   }
@@ -49429,7 +48836,7 @@
   "tags": {
     "bus": "yes",
     "cycleway:left": "lane",
-    "highway": "tertiary",
+    "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -51970,7 +51377,8 @@
     "maxspeed": "20 mph",
     "name": "Aldgate",
     "oneway": "yes",
-    "sidewalk": "left",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
     "surface": "asphalt"
   }
 },
@@ -52113,8 +51521,7 @@
     25473560,
     8807201308,
     6738949886,
-    6738943280,
-    25473536
+    6738943280
   ],
   "tags": {
     "highway": "living_street",
@@ -53275,7 +52682,9 @@
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
     "operator": "City of London Corporation",
-    "sidewalk": "both",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "yes",
+    "sidewalk:right:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -53367,6 +52776,8 @@
     "oneway": "yes",
     "oneway:bicycle": "no",
     "ref:GB:usrn": "8100100",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "yes",
     "surface": "asphalt"
   }
 },
@@ -53808,7 +53219,7 @@
     25248112,
     3816097106,
     3816097107,
-    2218344503
+    1312188886
   ],
   "tags": {
     "abutters": "commercial",
@@ -53885,11 +53296,14 @@
     1233350862
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "tertiary",
+    "lanes": "2",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Minories",
     "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -53911,7 +53325,7 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt"
   }
 },
@@ -53950,7 +53364,7 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt"
   }
 },
@@ -53995,6 +53409,8 @@
     "name": "Jewry Street",
     "oneway": "yes",
     "postal_code": "EC3",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt",
     "wikidata": "Q65767555"
   }
@@ -54181,7 +53597,9 @@
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
     "operator": "City of London Corporation",
-    "sidewalk": "both",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "yes",
+    "sidewalk:right:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -54405,9 +53823,11 @@
   "type": "way",
   "id": 494897032,
   "nodes": [
-    1365887500,
+    2218340965,
     4866976613,
-    2218340965
+    1365887500,
+    2387224474,
+    2387224475
   ],
   "tags": {
     "bus": "yes",
@@ -54417,27 +53837,10 @@
     "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
     "name": "Poultry",
     "oneway": "yes",
-    "sidewalk": "left",
+    "proposed:oneway": "no",
+    "sidewalk": "both",
     "surface": "asphalt",
     "wikidata": "Q7235592"
-  }
-},
-{
-  "type": "way",
-  "id": 494903462,
-  "nodes": [
-    1939558684,
-    7223326410,
-    7223326407,
-    1939558687
-  ],
-  "tags": {
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "oneway": "yes",
-    "sidewalk": "separate"
   }
 },
 {
@@ -54611,6 +54014,7 @@
     "cycleway:right": "lane",
     "cycleway:right:oneway": "-1",
     "highway": "unclassified",
+    "maxheight": "4.11",
     "maxspeed": "20 mph",
     "name": "Carlisle Avenue",
     "oneway": "yes",
@@ -55817,6 +55221,7 @@
   "nodes": [
     282879063,
     6802655647,
+    10617908244,
     102705569,
     4457210907,
     104352376,
@@ -55985,7 +55390,8 @@
     "maxspeed": "20 mph",
     "name": "Aldgate",
     "oneway": "yes",
-    "sidewalk": "left",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
     "surface": "asphalt"
   }
 },
@@ -56005,7 +55411,8 @@
     "name": "Aldgate",
     "not:name": "Houndsditch",
     "oneway": "yes",
-    "sidewalk": "left",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
     "surface": "asphalt"
   }
 },
@@ -56591,27 +55998,6 @@
 },
 {
   "type": "way",
-  "id": 639253770,
-  "nodes": [
-    1939558661,
-    4866784251,
-    1939558660,
-    7223365368
-  ],
-  "tags": {
-    "highway": "tertiary",
-    "lane_markings": "no",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Mansion House Street",
-    "oneway": "yes",
-    "sidewalk": "separate",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
   "id": 651629293,
   "nodes": [
     6110164647,
@@ -56715,7 +56101,8 @@
     "oneway": "yes",
     "operator": "Transport for London",
     "ref": "A11",
-    "sidewalk": "left",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
     "surface": "asphalt",
     "wikidata": "Q7995778",
     "wikipedia": "en:Whitechapel High Street"
@@ -56741,7 +56128,7 @@
     "operator": "Transport for London",
     "ref": "A11",
     "shoulder": "no",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt",
     "wikidata": "Q7995778",
     "wikipedia": "en:Whitechapel High Street"
@@ -57170,6 +56557,8 @@
     "oneway": "yes",
     "oneway:bicycle": "no",
     "postal_code": "EC3",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt",
     "wikidata": "Q65767555"
   }
@@ -57216,7 +56605,9 @@
     "name": "Whitechapel High Street",
     "operator": "Transport for London",
     "ref": "A11",
-    "sidewalk": "both",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "yes",
+    "sidewalk:right:surface": "paving_stones",
     "surface": "asphalt",
     "wikidata": "Q7995778",
     "wikipedia": "en:Whitechapel High Street"
@@ -57242,7 +56633,7 @@
     "cycleway:right": "separate",
     "cycleway:right:oneway": "no",
     "foot": "yes",
-    "highway": "service",
+    "highway": "primary_link",
     "lanes": "1",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -57250,6 +56641,32 @@
     "oneway": "yes",
     "operator": "Transport for London",
     "sidewalk": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 670547275,
+  "nodes": [
+    9678522995,
+    9678522999,
+    1951309361
+  ],
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "bus": "designated",
+    "cycleway:right": "separate",
+    "cycleway:right:oneway": "no",
+    "foot": "yes",
+    "highway": "primary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30 mph",
+    "name": "Shorter Street",
+    "oneway": "yes",
+    "operator": "Transport for London",
+    "sidewalk": "left",
     "surface": "asphalt"
   }
 },
@@ -57598,19 +57015,10 @@
   "id": 687867571,
   "nodes": [
     6551935921,
-    9753836019,
-    9753836018,
-    9753836020,
-    9753836021,
-    9753836017,
-    9753785316,
     7806987342,
     6448695831,
     6448695828,
     6448695826,
-    9753785313,
-    9753785315,
-    9753785314,
     6448695825
   ],
   "tags": {
@@ -57661,20 +57069,12 @@
   "id": 687867574,
   "nodes": [
     6448695825,
-    9753898869,
-    9753898868,
-    9753898867,
     6448695824,
     6448695821,
     6448696723,
     7836195160,
     6448695817,
     7806987343,
-    9753898862,
-    9753898864,
-    9753898866,
-    9753898863,
-    9753898865,
     6551935921
   ],
   "tags": {
@@ -57699,13 +57099,9 @@
   "id": 687867575,
   "nodes": [
     6448695829,
-    9753789056,
-    9753789055,
     6448695822,
     8996073047,
     6448695820,
-    9753789057,
-    9753789058,
     6448695830
   ],
   "tags": {
@@ -57751,12 +57147,8 @@
   "id": 687867577,
   "nodes": [
     6448695830,
-    9753774643,
-    9753774642,
     6448695827,
     6448695815,
-    9753774640,
-    9753774641,
     6448695829
   ],
   "tags": {
@@ -58518,7 +57910,7 @@
     "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
     "name": "Threadneedle Street",
     "note:covid19": "Temporarily closed to eastbound motorists",
-    "oneway": "no",
+    "oneway": "yes",
     "oneway:bicycle": "no",
     "proposed:highway": "cycleway",
     "sidewalk": "both",
@@ -58645,7 +58037,7 @@
     "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
     "name": "Threadneedle Street",
     "note:covid19": "Temporarily closed to eastbound motorists",
-    "oneway": "no",
+    "oneway": "yes",
     "oneway:bicycle": "no",
     "proposed:highway": "cycleway",
     "sidewalk": "both",
@@ -58657,7 +58049,6 @@
   "id": 773853954,
   "nodes": [
     1939558667,
-    7223326411,
     1939558657,
     1939558651
   ],
@@ -58672,25 +58063,6 @@
     "not:name": "Prince's Street",
     "sidewalk": "separate",
     "source:name": "local knowledge, street sign, web",
-    "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 773857884,
-  "nodes": [
-    7223365368,
-    7223365372,
-    7223365371,
-    1939558666
-  ],
-  "tags": {
-    "highway": "tertiary",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
-    "name": "Mansion House Street",
-    "sidewalk": "both",
     "surface": "asphalt"
   }
 },
@@ -58771,6 +58143,28 @@
     "ref": "A3211",
     "sidewalk": "separate",
     "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 776651885,
+  "nodes": [
+    4085387946,
+    7246513965,
+    7246513948,
+    4098680811
+  ],
+  "tags": {
+    "access": "no",
+    "bus": "yes",
+    "highway": "primary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Tanner Hill",
+    "oneway": "yes",
+    "operator": "Transport for London",
+    "sidewalk": "no"
   }
 },
 {
@@ -59741,7 +59135,7 @@
   "type": "way",
   "id": 840264350,
   "nodes": [
-    7840711614,
+    10660373786,
     18395288,
     25161370,
     1717643537,
@@ -61166,6 +60560,7 @@
     "name": "Aldgate High Street",
     "operator": "City of London Corporation",
     "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -61188,6 +60583,7 @@
     "name": "Aldgate High Street",
     "operator": "City of London Corporation",
     "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -61211,6 +60607,7 @@
     "name": "Aldgate High Street",
     "operator": "City of London Corporation",
     "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
   }
 },
@@ -61222,7 +60619,9 @@
     30056310
   ],
   "tags": {
+    "cycleway:left": "no",
     "cycleway:right": "lane",
+    "cycleway:right:lane": "advisory",
     "highway": "tertiary",
     "lanes": "2",
     "lit": "yes",
@@ -61230,7 +60629,9 @@
     "name": "Leadenhall Street",
     "old_ref": "A11",
     "postal_code": "EC3",
-    "sidewalk": "both",
+    "sidewalk:left": "yes",
+    "sidewalk:left:surface": "paving_stones",
+    "sidewalk:right": "separate",
     "surface": "asphalt",
     "wikipedia": "en:Leadenhall Street"
   }
@@ -61272,7 +60673,8 @@
     "name": "Aldgate",
     "not:name": "Houndsditch",
     "oneway": "yes",
-    "sidewalk": "left",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
     "surface": "asphalt"
   }
 },
@@ -61291,7 +60693,7 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt"
   }
 },
@@ -61304,14 +60706,16 @@
   ],
   "tags": {
     "abutters": "commercial",
-    "cycleway": "lane",
+    "cycleway:both": "lane",
+    "cycleway:left:lane": "exclusive",
+    "cycleway:right:lane": "advisory",
     "highway": "tertiary",
     "lanes": "3",
     "lanes:psv": "1",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Aldgate High Street",
-    "sidewalk": "both",
+    "sidewalk:both": "separate",
     "surface": "asphalt"
   }
 },
@@ -61434,7 +60838,7 @@
   ],
   "tags": {
     "bus": "yes",
-    "highway": "tertiary",
+    "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -61970,17 +61374,20 @@
   "type": "way",
   "id": 958716472,
   "nodes": [
-    24950093,
-    4866976614
+    2387224475,
+    4866976614,
+    10660049644
   ],
   "tags": {
     "bus": "yes",
-    "cycleway:left": "lane",
+    "cycleway:right": "lane",
     "highway": "tertiary",
     "lit": "yes",
     "maxspeed": "20 mph",
     "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
     "name": "Poultry",
+    "oneway": "yes",
+    "proposed:oneway": "no",
     "sidewalk": "both",
     "surface": "asphalt",
     "wikidata": "Q7235592"
@@ -62631,7 +62038,7 @@
     "busway:right": "lane",
     "cycleway:left": "lane",
     "cycleway:right": "share_busway",
-    "highway": "tertiary",
+    "highway": "unclassified",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Queen Victoria Street",
@@ -62655,7 +62062,7 @@
     "busway:right": "lane",
     "cycleway:left": "no",
     "cycleway:right": "share_busway",
-    "highway": "tertiary",
+    "highway": "unclassified",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Queen Victoria Street",
@@ -64625,6 +64032,35 @@
 },
 {
   "type": "way",
+  "id": 1053164437,
+  "nodes": [
+    4117896490,
+    9678523002,
+    9678523001,
+    9678522995
+  ],
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "bus": "designated",
+    "cycleway": "opposite",
+    "cycleway:right": "separate",
+    "cycleway:right:oneway": "no",
+    "foot": "yes",
+    "highway": "primary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "30 mph",
+    "name": "Shorter Street",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "operator": "Transport for London",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
   "id": 1053164440,
   "nodes": [
     9678522993,
@@ -64904,6 +64340,8 @@
     "oneway": "yes",
     "oneway:bicycle": "no",
     "postal_code": "EC3",
+    "sidewalk": "both",
+    "surface": "asphalt",
     "wikidata": "Q65767555"
   }
 },
@@ -65675,6 +65113,7 @@
     "name": "Saint Mary Axe",
     "oneway": "yes",
     "oneway:bicycle": "no",
+    "sidewalk:both": "separate",
     "surface": "asphalt",
     "wikidata": "Q7590464",
     "wikipedia": "en:St Mary Axe"
@@ -66993,7 +66432,7 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Threadneedle Street",
-    "oneway": "no",
+    "oneway": "yes",
     "oneway:bicycle": "no",
     "proposed:highway": "cycleway",
     "sidewalk": "both",
@@ -68103,6 +67542,7 @@
     "parking:condition:both": "no_parking",
     "parking:lane:both": "no",
     "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
     "surface": "paving_stones"
   }
 },
@@ -68912,6 +68352,7 @@
     25473407
   ],
   "tags": {
+    "cycleway:right": "separate",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -68936,7 +68377,7 @@
     10597830221
   ],
   "tags": {
-    "cycleway:right": "lane",
+    "cycleway:right": "separate",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -68955,52 +68396,297 @@
 },
 {
   "type": "way",
-  "id": 1137466218,
+  "id": 1137466220,
   "nodes": [
-    10603058333,
-    2218340965
+    10603058337,
+    10660049636,
+    2387226309
   ],
   "tags": {
-    "bus": "yes",
-    "highway": "tertiary",
-    "lane_markings": "no",
+    "cycleway:left": "lane",
+    "highway": "unclassified",
+    "lanes": "1",
     "lit": "yes",
     "maxspeed": "20 mph",
-    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
     "name": "Queen Victoria Street",
     "oneway": "yes",
-    "proposed:access": "no",
-    "proposed:highway": "cycleway",
-    "proposed:oneway": "no",
     "ref:GB:usrn": "8100442",
-    "sidewalk": "left",
+    "sidewalk": "both",
     "surface": "asphalt",
     "wikipedia": "en:Queen Victoria Street, London"
   }
 },
 {
   "type": "way",
-  "id": 1137466220,
+  "id": 1138013448,
   "nodes": [
-    10603058337,
-    2387226309
+    3247933381,
+    4430996033,
+    27459971
   ],
   "tags": {
-    "busway:right": "lane",
-    "cycleway:left": "lane",
-    "cycleway:right": "share_busway",
-    "highway": "tertiary",
-    "lanes": "3",
-    "lanes:backward": "2",
-    "lanes:forward": "1",
+    "cycleway:left": "no",
+    "cycleway:right": "lane",
+    "cycleway:right:lane": "advisory",
+    "cycleway:right:oneway": "-1",
+    "highway": "residential",
     "lit": "yes",
     "maxspeed": "20 mph",
-    "name": "Queen Victoria Street",
-    "proposed:oneway": "yes",
-    "ref:GB:usrn": "8100442",
+    "motor_vehicle:conditional": "destination @ (Mo-Fr 07:00-19:00)",
+    "name": "Saint Mary Axe",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
+    "surface": "asphalt",
+    "wikidata": "Q7590464",
+    "wikipedia": "en:St Mary Axe"
+  }
+},
+{
+  "type": "way",
+  "id": 1138013453,
+  "nodes": [
+    6218501757,
+    3247933381
+  ],
+  "tags": {
+    "cycleway:left": "no",
+    "cycleway:right": "lane",
+    "cycleway:right:lane": "advisory",
+    "cycleway:right:oneway": "-1",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "motor_vehicle:conditional": "destination @ (Mo-Fr 07:00-19:00)",
+    "name": "Saint Mary Axe",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:left": "yes",
+    "sidewalk:left:surface": "paving_stones",
+    "sidewalk:right": "separate",
+    "surface": "asphalt",
+    "wikidata": "Q7590464",
+    "wikipedia": "en:St Mary Axe"
+  }
+},
+{
+  "type": "way",
+  "id": 1138298726,
+  "nodes": [
+    108802,
+    9068725883,
+    283840739,
+    10610799854
+  ],
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Kennet Street",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1142706293,
+  "nodes": [
+    347541973,
+    33612688
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Artillery Lane",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "both",
+    "sidewalk:left:surface": "asphalt",
+    "sidewalk:right:surface": "paving_stones",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1142706294,
+  "nodes": [
+    33612688,
+    347541958,
+    3208075946,
+    25477306
+  ],
+  "tags": {
+    "cycleway": "opposite",
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Artillery Lane",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1145478721,
+  "nodes": [
+    24950093,
+    10660049644
+  ],
+  "tags": {
+    "bus": "yes",
+    "cycleway:left": "lane",
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
+    "name": "Poultry",
     "sidewalk": "both",
     "surface": "asphalt",
-    "wikipedia": "en:Queen Victoria Street, London"
+    "wikidata": "Q7235592"
+  }
+},
+{
+  "type": "way",
+  "id": 1145478722,
+  "nodes": [
+    2218344505,
+    10660049648,
+    1939558671,
+    2218344501,
+    1939558681,
+    10660402950
+  ],
+  "tags": {
+    "abutters": "commercial",
+    "bicycle": "yes",
+    "bus": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Cornhill",
+    "sidewalk": "both",
+    "surface": "asphalt",
+    "vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)"
+  }
+},
+{
+  "type": "way",
+  "id": 1145478723,
+  "nodes": [
+    2218344505,
+    10660049650,
+    2218344518,
+    1939558673,
+    2218344509,
+    1312188886
+  ],
+  "tags": {
+    "abutters": "commercial",
+    "highway": "tertiary",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Cornhill",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1145478724,
+  "nodes": [
+    1939558700,
+    7223326413
+  ],
+  "tags": {
+    "abutters": "commercial",
+    "cycle_network": "GB:London Streetspace",
+    "cycleway:right": "track",
+    "cycleway:right:oneway": "-1",
+    "highway": "unclassified",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Threadneedle Street",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "proposed:cycle_network": "GB:London Streetspace",
+    "proposed:highway": "cycleway",
+    "sidewalk": "left",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1145478725,
+  "nodes": [
+    10660049646,
+    10660049645,
+    7223365368,
+    7223365372,
+    7223365371,
+    1939558666,
+    2218364543,
+    2218340965
+  ],
+  "tags": {
+    "bus": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "motor_vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)",
+    "name": "Mansion House Street",
+    "oneway": "yes",
+    "proposed:oneway": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1145543201,
+  "nodes": [
+    10660402950,
+    1939558667
+  ],
+  "tags": {
+    "abutters": "commercial",
+    "bicycle": "yes",
+    "bus": "yes",
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name:left": "Cornhill",
+    "name:right": "Threadneedle Street",
+    "sidewalk": "both",
+    "surface": "asphalt",
+    "vehicle:conditional": "no @ (Mo-Fr 07:00-19:00)"
+  }
+},
+{
+  "type": "way",
+  "id": 1146531022,
+  "nodes": [
+    6738943280,
+    25473536
+  ],
+  "tags": {
+    "highway": "living_street",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Clink Street",
+    "surface": "sett"
   }
 },
 {
@@ -69585,14 +69271,14 @@
   "id": 2836603,
   "members": [
     {
-      "type": "node",
-      "ref": 2218344503,
-      "role": "via"
+      "type": "way",
+      "ref": 1145478723,
+      "role": "from"
     },
     {
-      "type": "way",
-      "ref": 183555209,
-      "role": "from"
+      "type": "node",
+      "ref": 1312188886,
+      "role": "via"
     },
     {
       "type": "way",
@@ -69710,55 +69396,10 @@
   "id": 3086412,
   "members": [
     {
-      "type": "node",
-      "ref": 2218340965,
-      "role": "via"
-    },
-    {
       "type": "way",
-      "ref": 211899528,
+      "ref": 1145478725,
       "role": "from"
     },
-    {
-      "type": "way",
-      "ref": 211901834,
-      "role": "to"
-    }
-  ],
-  "tags": {
-    "restriction": "only_straight_on",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 3086413,
-  "members": [
-    {
-      "type": "way",
-      "ref": 211901834,
-      "role": "from"
-    },
-    {
-      "type": "node",
-      "ref": 4866976614,
-      "role": "via"
-    },
-    {
-      "type": "way",
-      "ref": 211899530,
-      "role": "to"
-    }
-  ],
-  "tags": {
-    "restriction": "no_u_turn",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 3086414,
-  "members": [
     {
       "type": "node",
       "ref": 2218340965,
@@ -69766,12 +69407,7 @@
     },
     {
       "type": "way",
-      "ref": 1137466218,
-      "role": "from"
-    },
-    {
-      "type": "way",
-      "ref": 211899528,
+      "ref": 494897032,
       "role": "to"
     }
   ],
@@ -70419,11 +70055,6 @@
       "role": "from"
     },
     {
-      "type": "node",
-      "ref": 20625790,
-      "role": "via"
-    },
-    {
       "type": "way",
       "ref": 628621086,
       "role": "to"
@@ -70533,56 +70164,6 @@
   ],
   "tags": {
     "restriction": "no_u_turn",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 7263729,
-  "members": [
-    {
-      "type": "way",
-      "ref": 211899832,
-      "role": "from"
-    },
-    {
-      "type": "node",
-      "ref": 1939558667,
-      "role": "via"
-    },
-    {
-      "type": "way",
-      "ref": 183555210,
-      "role": "to"
-    }
-  ],
-  "tags": {
-    "restriction": "no_right_turn",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 7264124,
-  "members": [
-    {
-      "type": "way",
-      "ref": 494897032,
-      "role": "from"
-    },
-    {
-      "type": "way",
-      "ref": 211899528,
-      "role": "via"
-    },
-    {
-      "type": "way",
-      "ref": 209418497,
-      "role": "to"
-    }
-  ],
-  "tags": {
-    "restriction": "no_right_turn",
     "type": "restriction"
   }
 },
@@ -70753,56 +70334,6 @@
     {
       "type": "node",
       "ref": 1312188714,
-      "role": "via"
-    }
-  ],
-  "tags": {
-    "restriction": "no_u_turn",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 7504238,
-  "members": [
-    {
-      "type": "way",
-      "ref": 494897032,
-      "role": "from"
-    },
-    {
-      "type": "way",
-      "ref": 211901834,
-      "role": "to"
-    },
-    {
-      "type": "node",
-      "ref": 2218340965,
-      "role": "via"
-    }
-  ],
-  "tags": {
-    "restriction": "no_u_turn",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 7504239,
-  "members": [
-    {
-      "type": "way",
-      "ref": 211899528,
-      "role": "from"
-    },
-    {
-      "type": "way",
-      "ref": 209418497,
-      "role": "to"
-    },
-    {
-      "type": "node",
-      "ref": 1939558666,
       "role": "via"
     }
   ],
@@ -71328,31 +70859,6 @@
     {
       "type": "way",
       "ref": 4254069,
-      "role": "to"
-    }
-  ],
-  "tags": {
-    "restriction": "no_right_turn",
-    "type": "restriction"
-  }
-},
-{
-  "type": "relation",
-  "id": 8864249,
-  "members": [
-    {
-      "type": "way",
-      "ref": 183555233,
-      "role": "from"
-    },
-    {
-      "type": "node",
-      "ref": 1939558667,
-      "role": "via"
-    },
-    {
-      "type": "way",
-      "ref": 183555210,
       "role": "to"
     }
   ],
@@ -72357,6 +71863,31 @@
     {
       "type": "way",
       "ref": 3709269,
+      "role": "to"
+    }
+  ],
+  "tags": {
+    "restriction": "no_right_turn",
+    "type": "restriction"
+  }
+},
+{
+  "type": "relation",
+  "id": 15480035,
+  "members": [
+    {
+      "type": "way",
+      "ref": 211900221,
+      "role": "from"
+    },
+    {
+      "type": "way",
+      "ref": 1145543201,
+      "role": "via"
+    },
+    {
+      "type": "way",
+      "ref": 183555218,
       "role": "to"
     }
   ],
