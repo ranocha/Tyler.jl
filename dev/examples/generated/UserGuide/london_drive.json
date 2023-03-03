@@ -1,8 +1,8 @@
 {
   "version": 0.6,
-  "generator": "Overpass API 0.7.59 e21c39fe",
+  "generator": "Overpass API 0.7.59.2 0994154d",
   "osm3s": {
-    "timestamp_osm_base": "2023-02-20T09:59:55Z",
+    "timestamp_osm_base": "2023-03-03T22:51:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11,10 +11,10 @@
   "type": "count",
   "id": 0,
   "tags": {
-    "nodes": "4852",
-    "ways": "1470",
+    "nodes": "4857",
+    "ways": "1472",
     "relations": "128",
-    "total": "6450"
+    "total": "6457"
   }
 },
 {
@@ -2660,6 +2660,12 @@
   "id": 25502326,
   "lat": 51.5190018,
   "lon": -0.0762747
+},
+{
+  "type": "node",
+  "id": 25532273,
+  "lat": 51.5096838,
+  "lon": -0.0806724
 },
 {
   "type": "node",
@@ -7641,7 +7647,7 @@
     "barrier": "gate",
     "bicycle": "yes",
     "foot": "yes",
-    "motor_vehicle:conditional": "no @ (mo-fr 08:00-18:00)"
+    "motor_vehicle:conditional": "no @ (Mo-Fr 08:00-18:00)"
   }
 },
 {
@@ -11467,8 +11473,8 @@
 {
   "type": "node",
   "id": 1684835062,
-  "lat": 51.5183441,
-  "lon": -0.0909555
+  "lat": 51.5183414,
+  "lon": -0.0909512
 },
 {
   "type": "node",
@@ -13286,8 +13292,7 @@
   "lon": -0.0896255,
   "tags": {
     "crossing": "traffic_signals",
-    "crossing:island": "separate",
-    "crossing:markings": "dots",
+    "crossing:island": "no",
     "crossing_ref": "pelican",
     "highway": "crossing"
   }
@@ -13790,7 +13795,9 @@
     "crossing:island": "no",
     "crossing_ref": "pelican",
     "highway": "crossing",
-    "tactile_paving": "yes"
+    "tactile_paving": "yes",
+    "traffic_signals:sound": "no",
+    "traffic_signals:vibration": "yes"
   }
 },
 {
@@ -15873,6 +15880,18 @@
 },
 {
   "type": "node",
+  "id": 2529278077,
+  "lat": 51.5095773,
+  "lon": -0.0803912,
+  "tags": {
+    "crossing": "no",
+    "highway": "traffic_signals",
+    "traffic_signals": "pedestrian_crossing",
+    "traffic_signals:direction": "forward"
+  }
+},
+{
+  "type": "node",
   "id": 2530625787,
   "lat": 51.5052399,
   "lon": -0.0682426
@@ -17698,6 +17717,20 @@
 },
 {
   "type": "node",
+  "id": 3385356250,
+  "lat": 51.5096011,
+  "lon": -0.0804541,
+  "tags": {
+    "crossing": "traffic_signals",
+    "crossing:island": "separate",
+    "crossing:markings": "dots",
+    "crossing_ref": "pelican",
+    "highway": "crossing",
+    "kerb": "lowered"
+  }
+},
+{
+  "type": "node",
   "id": 3385387604,
   "lat": 51.5097201,
   "lon": -0.0806203
@@ -19126,8 +19159,7 @@
   "lon": -0.0895548,
   "tags": {
     "crossing": "traffic_signals",
-    "crossing:island": "separate",
-    "crossing:markings": "dots",
+    "crossing:island": "no",
     "crossing_ref": "pelican",
     "highway": "crossing"
   }
@@ -19650,8 +19682,7 @@
   "lon": -0.0895886,
   "tags": {
     "crossing": "traffic_signals",
-    "crossing:island": "separate",
-    "crossing:markings": "dots",
+    "crossing:island": "no",
     "crossing_ref": "pelican",
     "highway": "crossing"
   }
@@ -20297,6 +20328,15 @@
   "id": 4529881970,
   "lat": 51.5133746,
   "lon": -0.0771809,
+  "tags": {
+    "police": "checkpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4529884183,
+  "lat": 51.5096420,
+  "lon": -0.0805621,
   "tags": {
     "police": "checkpoint"
   }
@@ -25859,7 +25899,8 @@
   "tags": {
     "crossing": "traffic_signals",
     "crossing_ref": "pelican",
-    "highway": "crossing"
+    "highway": "crossing",
+    "tactile_paving": "yes"
   }
 },
 {
@@ -26177,6 +26218,12 @@
     "cycleway": "asl",
     "direction": "forward"
   }
+},
+{
+  "type": "node",
+  "id": 6985465126,
+  "lat": 51.5097666,
+  "lon": -0.0808914
 },
 {
   "type": "node",
@@ -35786,7 +35833,8 @@
     "bus": "yes",
     "busway": "lane",
     "cycleway:buffer": "yes",
-    "cycleway:left": "lane",
+    "cycleway:left": "track",
+    "cycleway:right": "no",
     "highway": "primary",
     "lanes": "2",
     "layer": "1",
@@ -37362,6 +37410,7 @@
     12238097
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -37778,8 +37827,7 @@
     7575592585
   ],
   "tags": {
-    "cycleway:right": "lane",
-    "cycleway:right:oneway": "-1",
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -38721,6 +38769,7 @@
     109767
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -38913,6 +38962,7 @@
     8727724826
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -39853,9 +39903,13 @@
     28419615
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "maxspeed": "20 mph",
     "name": "Brune Street",
+    "parking:left": "no",
+    "parking:right": "lane",
+    "parking:right:orientation": "parallel",
     "sidewalk": "both",
     "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
@@ -40337,6 +40391,7 @@
     25473530
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "lit": "yes",
     "name": "Cathedral Street",
@@ -41235,9 +41290,11 @@
     249482985
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "maxspeed": "20 mph",
     "name": "Tenter Ground",
+    "parking:both": "no",
     "sidewalk": "both",
     "sidewalk:both:surface": "paving_stones",
     "surface": "asphalt"
@@ -42002,7 +42059,9 @@
   "tags": {
     "cycleway:both": "no",
     "highway": "unclassified",
-    "name": "Brunswick Court"
+    "lane_markings": "no",
+    "name": "Brunswick Court",
+    "surface": "asphalt"
   }
 },
 {
@@ -42459,9 +42518,8 @@
     806739138
   ],
   "tags": {
+    "cycleway:both": "no",
     "cycleway:left:width": "1.75",
-    "cycleway:right": "lane",
-    "cycleway:right:oneway": "-1",
     "highway": "residential",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -42639,7 +42697,7 @@
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "Artillery Lane",
-    "sidewalk": "separate",
+    "sidewalk": "both",
     "surface": "asphalt"
   }
 },
@@ -44062,6 +44120,7 @@
     "foot": "yes",
     "highway": "trunk",
     "horse": "yes",
+    "lanes": "2",
     "lit": "yes",
     "maxspeed": "30 mph",
     "name": "Tower Bridge Road",
@@ -47135,6 +47194,7 @@
     "maxspeed": "20 mph",
     "name": "Toynbee Street",
     "oneway": "yes",
+    "parking:both": "no",
     "sidewalk": "both",
     "sidewalk:both:surface": "asphalt",
     "source": "bing",
@@ -49343,6 +49403,33 @@
 },
 {
   "type": "way",
+  "id": 243510401,
+  "nodes": [
+    3385356250,
+    4529884183,
+    25532273
+  ],
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "bus": "designated",
+    "cycleway:left": "no",
+    "highway": "tertiary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Great Tower Street",
+    "oneway": "yes",
+    "postal_code": "EC3",
+    "ref:GB:usrn": "8100251",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "surface": "asphalt",
+    "wikidata": "Q5600093"
+  }
+},
+{
+  "type": "way",
   "id": 243511077,
   "nodes": [
     2502545024,
@@ -49442,7 +49529,8 @@
     "note": "This is a 'Green' signed Road IMHO, so should be a trunk?",
     "operator": "Transport for London",
     "ref": "A13",
-    "sidewalk": "both"
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones"
   }
 },
 {
@@ -49681,11 +49769,13 @@
     28419931
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "lit": "yes",
     "maxspeed": "20 mph",
     "name": "White's Row",
     "oneway": "yes",
+    "parking:both": "no",
     "sidewalk": "both",
     "source": "OS;http://wiki.casebook.org/index.php/White%27s_Row;bing",
     "surface": "asphalt"
@@ -49913,7 +50003,8 @@
     "note": "This is a 'Green' signed Road IMHO, so should be a trunk?",
     "operator": "Transport for London",
     "ref": "A13",
-    "sidewalk": "both"
+    "sidewalk": "both",
+    "sidewalk:both:surface": "paving_stones"
   }
 },
 {
@@ -50291,6 +50382,7 @@
     108860
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "primary",
     "lane_markings": "no",
     "lit": "yes",
@@ -51251,6 +51343,33 @@
 },
 {
   "type": "way",
+  "id": 331462784,
+  "nodes": [
+    25532273,
+    6985465126,
+    3385387607
+  ],
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "bus": "designated",
+    "cycleway:left": "no",
+    "highway": "tertiary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Great Tower Street",
+    "oneway": "yes",
+    "postal_code": "EC3",
+    "ref:GB:usrn": "8100251",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "surface": "asphalt",
+    "wikidata": "Q5600093"
+  }
+},
+{
+  "type": "way",
   "id": 331462786,
   "nodes": [
     3385387604,
@@ -51481,6 +51600,7 @@
     25497639
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -52542,6 +52662,7 @@
   "type": "way",
   "id": 414476204,
   "nodes": [
+    25067920,
     9659831674,
     9659831673,
     1569216326,
@@ -54795,6 +54916,7 @@
     25473527
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "residential",
     "lit": "yes",
     "maxspeed": "20 mph",
@@ -57631,6 +57753,33 @@
 },
 {
   "type": "way",
+  "id": 746471632,
+  "nodes": [
+    24952195,
+    2529278077,
+    3385356250
+  ],
+  "tags": {
+    "access": "no",
+    "bicycle": "yes",
+    "bus": "designated",
+    "cycleway:left": "no",
+    "highway": "tertiary_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "20 mph",
+    "name": "Great Tower Street",
+    "oneway": "yes",
+    "postal_code": "EC3",
+    "ref:GB:usrn": "8100251",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "surface": "asphalt",
+    "wikidata": "Q5600093"
+  }
+},
+{
+  "type": "way",
   "id": 746481029,
   "nodes": [
     6985465124,
@@ -59622,7 +59771,8 @@
     "bus": "yes",
     "busway": "lane",
     "cycleway:buffer": "yes",
-    "cycleway:left": "lane",
+    "cycleway:left": "track",
+    "cycleway:right": "no",
     "hgv": "no",
     "highway": "primary",
     "lanes": "2",
@@ -61192,6 +61342,7 @@
     8727724827
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "primary",
     "lanes": "1",
     "lit": "yes",
@@ -63127,28 +63278,6 @@
     "ref": "A1210",
     "sidewalk": "left",
     "surface": "asphalt"
-  }
-},
-{
-  "type": "way",
-  "id": 1051187241,
-  "nodes": [
-    25067920,
-    9659831674
-  ],
-  "tags": {
-    "access": "no",
-    "highway": "unclassified",
-    "lit": "yes",
-    "maxspeed": "20 mph",
-    "name": "Arthur Street",
-    "note": "Road closed until 2022 due to Bank station works",
-    "old_name": "Arthur Street West",
-    "sidewalk:left": "yes",
-    "sidewalk:right": "separate",
-    "was:oneway": "yes",
-    "was:oneway:bicycle": "no",
-    "was:oneway:bus": "no"
   }
 },
 {
@@ -68087,6 +68216,7 @@
     1903321514
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -68129,6 +68259,7 @@
     10298733536
   ],
   "tags": {
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -68148,8 +68279,7 @@
     10298733543
   ],
   "tags": {
-    "cycleway:right": "lane",
-    "cycleway:right:oneway": "-1",
+    "cycleway:both": "no",
     "highway": "unclassified",
     "lane_markings": "no",
     "lit": "yes",
@@ -68170,10 +68300,9 @@
     10298733534
   ],
   "tags": {
-    "cycleway:right": "lane",
-    "cycleway:right:oneway": "-1",
+    "cycleway:both": "no",
     "highway": "unclassified",
-    "lane_markings": "yes",
+    "lane_markings": "no",
     "lit": "yes",
     "maxheight": "3.5",
     "maxspeed": "20 mph",
